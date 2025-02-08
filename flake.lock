@@ -201,7 +201,24 @@
     "root": {
       "inputs": {
         "neovim": "neovim",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "telescope-recent-files-src": "telescope-recent-files-src"
+      }
+    },
+    "telescope-recent-files-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1732526831,
+        "narHash": "sha256-iAJvWnZnEOqD4u90U/ebA76zafKpzNi41+gYjf1fU58=",
+        "owner": "smartpde",
+        "repo": "telescope-recent-files",
+        "rev": "3a7a1b9c6b52b6ff7938c59f64c87a05e013dff8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "smartpde",
+        "repo": "telescope-recent-files",
+        "type": "github"
       }
     },
     "treefmt-nix": {
